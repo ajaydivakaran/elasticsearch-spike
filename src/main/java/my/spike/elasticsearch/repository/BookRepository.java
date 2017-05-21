@@ -2,9 +2,6 @@ package my.spike.elasticsearch.repository;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import my.spike.elasticsearch.model.Book;
-import org.elasticsearch.action.get.GetResponse;
-import org.elasticsearch.action.get.MultiGetItemResponse;
-import org.elasticsearch.action.get.MultiGetResponse;
 import org.elasticsearch.action.index.IndexResponse;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.transport.TransportClient;
